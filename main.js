@@ -1,0 +1,45 @@
+
+// function , object , array
+
+//    "“So many books, so little time.”― Frank Zappa" ,
+//    "“A room without books is like a body without a soul.”― Marcus Tullius Cicero",
+//    "“Be who you are and say what you feel, because those who mind don't matter, and those who matter don't mind.”― Bernard M. Baruch",
+//    "“You only live once, but if you do it right, once is enough.”― Mae West"
+
+
+var quotes = [
+
+    {quoteContent:"“So many books, so little time.”",autherName:"― Frank Zappa"},
+    {quoteContent:"A room without books is like a body without a soul.”",autherName:" ― Marcus Tullius Cicero"},
+    { quoteContent:"““Be who you are and say what you feel, because those who mind don't matter, and those who matter don't mind.”",autherName:" ― Bernard M. Baruch"},
+    {quoteContent:"“You only live once, but if you do it right, once is enough.”",autherName: " ― Mae West"},
+    {quoteContent:"“If you tell the truth, you don't have to remember anything.”",autherName:" ― Mark Twain"},
+    {quoteContent:"“I've learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel.”",autherName:" ― Maya Angelou"},
+    {quoteContent:"“To live is the rarest thing in the world. Most people exist, that is all.”",autherName:" ― Oscar Wilde"},
+    {quoteContent:"“A friend is someone who knows all about you and still loves you.”",autherName:"―Elbert Hubbard"},
+    {quoteContent:"“Always forgive your enemies; nothing annoys them so much.”",autherName:"― Oscar Wilde"},
+]
+function generatequote(){
+
+    var quotes_index = Math.floor(Math.random() * quotes.length)  
+    var queteee = quotes[quotes_index];
+    document.getElementById("quoteContent").textContent= queteee.quoteContent;
+    document.getElementById("autherName").textContent= queteee.autherName;
+}
+
+// var container = '';
+// for(var i =0;i<employess.length;i++){
+//     container += ` <div class="col-md-3">
+//                 <h6>Name :  ${employess[i].empName}</h6>
+//                 <h6>Address  :  ${employess[i].address}</h6>
+//                 <h6>Age :  ${employess[i].age}</h6>
+//                 <h6>email :  ${employess[i].email}</h6>
+//             </div>`
+// }
+// document.getElementById("rowww").innerHTML = container
+
+
+
+
+
+
