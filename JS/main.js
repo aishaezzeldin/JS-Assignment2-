@@ -1,11 +1,4 @@
 
-// function , object , array
-
-//    "“So many books, so little time.”― Frank Zappa" ,
-//    "“A room without books is like a body without a soul.”― Marcus Tullius Cicero",
-//    "“Be who you are and say what you feel, because those who mind don't matter, and those who matter don't mind.”― Bernard M. Baruch",
-//    "“You only live once, but if you do it right, once is enough.”― Mae West"
-
 
 var quotes = [
 
@@ -26,16 +19,6 @@ function generatequote(){
     document.getElementById("autherName").textContent= fullQuote.autherName;
 }
 
-// var container = '';
-// for(var i =0;i<employess.length;i++){
-//     container += ` <div class="col-md-3">
-//                 <h6>Name :  ${employess[i].empName}</h6>
-//                 <h6>Address  :  ${employess[i].address}</h6>
-//                 <h6>Age :  ${employess[i].age}</h6>
-//                 <h6>email :  ${employess[i].email}</h6>
-//             </div>`
-// }
-// document.getElementById("rowww").innerHTML = container
 
 
 
