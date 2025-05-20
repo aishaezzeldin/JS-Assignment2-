@@ -1,0 +1,26 @@
+.btn{
+    width: 300px;
+    height: 100px;
+    background-color: blue;
+    border: 1px solid black;
+    border-radius: 0;
+    color: white;
+}
+.btn:hover{
+    background-color: green;
+    color: white;
+}
+
+h1{
+    color: black;
+    font-size: 80px;
+    font-weight: 700;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 50px 0;
+}
+
+p{
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+}
